@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vikram Publications</title>
+    <link rel="stylesheet" href="./style_li.css">
+    <link rel="icon" href="/IMAGES/1676984998562.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500;600;700;800&family=Hubballi&family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500;600;700;800&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Hubballi&family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbars">
+        <div class="catalogue">
+            <button class="catalogue_button">
+                <i class="fa-solid fa-download"></i>
+                <a href="">DOWNLOAD CATALOGUE</a>
+            </button>
+        </div>
+        <div class="navbar">
+            <div class="navbar_logo">
+                <div class="navbar_logo1">
+                    <img src="/IMAGES/logo.png" alt="">
+                </div>
+                <div class="navbar_logo2">
+                    <p class="vikram">VIKRAM</p>
+                    <p class="publication">PRAKASHANA</p>
+                </div>          
+            </div>
+            <div class="navbar_search">
+                <!-- dropdown -->
+                <div class="navbar_search_dropdown">
+                    <ul>
+                        <li class="select_category">
+                            <a href="#" onclick="dropdown()">
+                                <span id="closedropdown" class="closedropdown">Select Category</span>
+                                <i class='bx bxs-chevron-down'></i>
+                            </a>
+                            <ul class="category_dropdown">
+                                <li><a href="">Adyatma & Dharmika</a></li>
+                                <li><a href="">Auto Biography</a></li>
+                                <li><a href="">English Books</a></li>
+                                <li><a href="">Genaral</a></li>
+                                <li><a href="">Historical Books</a></li>
+                                <li><a href="">Personality Development</a></li>
+                                <li><a href="">Yoga</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input class="input" type="text" placeholder="  Search..">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <div class="navbar_search_contact">
+                    <div class="navbar_search_contact1">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>CALL US NOW </p>
+                    </div>
+                    <div class="navbar_search_contact2">
+                        <P>080 - 22161900</P>
+                    </div>
+                </div>           
+            </div>
+            <div class="navbar_login">
+                <div class="navbar_login1">
+                    <a href=""><i class='bx bx-user'></i></a>
+                    <a class="login" href="">Login / Signup</a>
+                </div>
+                <div class="navbar_login2">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="navbar_list">
+            <ul>
+                <li><a href="/index.html">HOME</a></li>
+                <li><a href="/bookcategory/index_bc.html">CATEGORIES</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="#cs_social_icons">CONTACT US</a></li>
+                <li><a href="">BLOG</a></li>
+            </ul>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+          <div class="user signinBx">
+            <div class="imgBx"><img src="/IMAGES/login/login.jpg" alt="" /></div>
+            <div class="formBx">
+              <form action="" onsubmit="return false;">
+                <h2>Sign In</h2>
+                <input type="text" name="" placeholder="Username" />
+                <div class="paswrd-eye">
+                    <input id ="input-password" type="password" name="" placeholder="Password" />
+                    <i onclick="pwVisibility()" id="eye-icon-show" class="fa-regular fa-eye"></i>
+                    <i onclick="pwHide()" id="eye-icon-hide" class="fa-regular fa-eye-slash"></i>
+                </div>
+                <input type="submit" name="" value="Login" />
+                <p class="signup">
+                  Don't have an account ?
+                  <a href="#" onclick="toggleForm();">Sign Up.</a>
+                </p>
+              </form>
+            </div>
+          </div>
+          <div class="user signupBx">
+            <div class="formBx">
+              <form action="" onsubmit="return false;">
+                <h2>Create an account</h2>
+                <input type="text" name="" placeholder="Username" />
+                <input type="email" name="" placeholder="Email Address" />
+                <input type="">
+                <input type="password" name="" placeholder="Create Password" />
+                <div class="paswrd-eye1">
+                    <input id ="input-password1" type="password" name="" placeholder="Confirm Password" />
+                    <i onclick="pwVisibility1()" id="eye-icon-show1" class="fa-regular fa-eye"></i>
+                    <i onclick="pwHide1()" id="eye-icon-hide1" class="fa-regular fa-eye-slash"></i>
+                </div>
+
+                <!-- <input type="password" name="" placeholder="Confirm Password" /> -->
+                <input type="submit" name="" value="Sign Up" />
+                <p class="signup">
+                  Already have an account ?
+                  <a href="#" onclick="toggleForm();">Sign in.</a>
+                </p>
+              </form>
+            </div>
+            <div class="imgBx"><img src="/IMAGES/login/signup.jpg" alt="" /></div>
+          </div>
+        </div>
+      </section>
+
+    <script src="./script_li.js"></script>
+</body>
+</html>

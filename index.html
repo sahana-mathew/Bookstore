@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vikram Publications</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./IMAGES/1676984998562.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500;600;700;800&family=Hubballi&family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@100;200;300;400;500;600;700;800&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Hubballi&family=Noto+Serif+Kannada:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbars">
+        <div class="catalogue">
+            <button class="catalogue_button">
+                <i class="fa-solid fa-download"></i>
+                <a href="">DOWNLOAD CATALOGUE</a>
+            </button>
+        </div>
+        <div class="navbar">
+            <div class="navbar_logo">
+                <div class="navbar_logo1">
+                    <img src="IMAGES/logo.png" alt="">
+                </div>
+                <div class="navbar_logo2">
+                    <p class="vikram">VIKRAM</p>
+                    <p class="publication">PRAKASHANA</p>
+                </div>          
+            </div>
+            <div class="navbar_search">
+                <!-- dropdown -->
+                <div class="navbar_search_dropdown">
+                    <ul>
+                        <li class="select_category">
+                            <a href="#" onclick="dropdown()">
+                                <span id="closedropdown" class="closedropdown">Select Category</span>
+                                <i class='bx bxs-chevron-down'></i>
+                            </a>
+                            <ul class="category_dropdown">
+                                <li><a href="">Adyatma & Dharmika</a></li>
+                                <li><a href="">Auto Biography</a></li>
+                                <li><a href="">English Books</a></li>
+                                <li><a href="">Genaral</a></li>
+                                <li><a href="">Historical Books</a></li>
+                                <li><a href="">Personality Development</a></li>
+                                <li><a href="">Yoga</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <input class="input" type="text" placeholder="  Search..">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                <div class="navbar_search_contact">
+                    <div class="navbar_search_contact1">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>CALL US NOW </p>
+                    </div>
+                    <div class="navbar_search_contact2">
+                        <P>080 - 22161900</P>
+                    </div>
+                </div>           
+            </div>
+            <div class="navbar_login">
+                <div class="navbar_login1">
+                    <a href=""><i class='bx bx-user'></i></a>
+                    <a class="login" href="./login/index_li.html">Login / Signup</a>
+                </div>
+                <div class="navbar_login2">
+                    <a href=""><i class="fa-regular fa-heart"></i></a>
+                    <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            </div>
+            <div class="menu-icons">
+                <a href="javascript:void(0);" class="menu-icon"><i class="bx bx-menu"></i></a>
+            </div>
+        </div>
+        <div class="navbar_list">
+            <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./bookcategory/index_bc.html">CATEGORIES</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="#cs_social_icons">CONTACT US</a></li>
+                <li><a href="">BLOG</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="adv">
+        <div class="corousel">
+            <!-- <h1>SLIDER</h1> -->
+            <img  id="slideimg" src="./IMAGES/mockup/capture3.jpg" alt="">
+        </div>
+        <!-- <div class="magzine">
+            <h5>Suscribe Now</h5>
+        </div> -->
+    </div>
+    <!-- latest book Other publications -->
+    <div id="ltst_bk_otr_pblctn">
+        <div class="lbop_heading">
+            <h2 class="lbop_head">Latest Books (Other Publication) </h2>
+            <button class="lbop_btn">View All</button>
+        </div>
+        <div class="lbop_cards">
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- latest book own publications -->
+    <div id="ltst_bk_otr_pblctn">
+        <div class="lbop_heading">
+            <h2 class="lbop_head">Latest Books (Own Publication) </h2>
+            <button class="lbop_btn">View All</button>
+        </div>
+        <div class="lbop_cards">
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- award winning -->
+    <div id="ltst_bk_otr_pblctn">
+        <div class="lbop_heading">
+            <h2 class="lbop_head">Award Winning Books</h2>
+            <button class="lbop_btn">View All</button>
+        </div>
+        <div class="lbop_cards">
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- best seller -->
+    <div id="ltst_bk_otr_pblctn">
+        <div class="lbop_heading">
+            <h2 class="lbop_head">Best Sellwer </h2>
+            <button class="lbop_btn">View All</button>
+        </div>
+        <div class="lbop_cards">
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+            <div class="lbop_card">
+                <img class="lbop_card_img" src="./IMAGES/Auto biography/10.Shree Guru Geetha.jpg" alt="">
+                <h4 class="lbop_card_title">Shree Guru Geetha</h4>
+                <h5 class="lbop_card_author">Madhurya</h5>
+                <h4 class="lbop_card_price">₹ 130.00</h4>
+                <button class="lbop_card_btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h3>Add to Cart</h3>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- readers choice -->
+    <div id="reader_choice_container">
+        <div class="rc_header">
+            <h2 class="rc_head">Reader's Choice</h2>
+            <button class="rc_btn">View All</button>
+        </div>
+        <div class="rc_row">
+            <!-- <div class="rc_row1"> -->
+                <div class="rc_card">
+                    <img class="rc_card_img" src="./IMAGES/General/1. Mrutyu tarvata Jeevitham.jpg" alt="">
+                    <div class="rc_card_discription">
+                        <h4 class="rc_card_title">Mrutyu tarvata Jeevitham</h4>
+                        <h5 class="rc_card_author">Madhurya</h5>
+                        <h4 class="rc_card_price">₹ 130.00</h4>
+                        <button class="rc_card_btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h3>Add to Cart</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="rc_card">
+                    <img class="rc_card_img" src="./IMAGES/General/1. Mrutyu tarvata Jeevitham.jpg" alt="">
+                    <div class="rc_card_discription">
+                        <h4 class="rc_card_title">Mrutyu tarvata Jeevitham</h4>
+                        <h5 class="rc_card_author">Madhurya</h5>
+                        <h4 class="rc_card_price">₹ 130.00</h4>
+                        <button class="rc_card_btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h3>Add to Cart</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="rc_card">
+                    <img class="rc_card_img" src="./IMAGES/General/1. Mrutyu tarvata Jeevitham.jpg" alt="">
+                    <div class="rc_card_discription">
+                        <h4 class="rc_card_title">Mrutyu tarvata Jeevitham</h4>
+                        <h5 class="rc_card_author">Madhurya</h5>
+                        <h4 class="rc_card_price">₹ 130.00</h4>
+                        <button class="rc_card_btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h3>Add to Cart</h3>
+                        </button>
+                    </div>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="rc_row1"> -->
+                <div class="rc_card">
+                    <img class="rc_card_img" src="./IMAGES/General/1. Mrutyu tarvata Jeevitham.jpg" alt="">
+                    <div class="rc_card_discription">
+                        <h4 class="rc_card_title">Mrutyu tarvata Jeevitham</h4>
+                        <h5 class="rc_card_author">Madhurya</h5>
+                        <h4 class="rc_card_price">₹ 130.00</h4>
+                        <button class="rc_card_btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h3>Add to Cart</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="rc_card">
+                    <img class="rc_card_img" src="./IMAGES/General/1. Mrutyu tarvata Jeevitham.jpg" alt="">
+                    <div class="rc_card_discription">
+                        <h4 class="rc_card_title">Mrutyu tarvata Jeevitham</h4>
+                        <h5 class="rc_card_author">Madhurya</h5>
+                        <h4 class="rc_card_price">₹ 130.00</h4>
+                        <button class="rc_card_btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h3>Add to Cart</h3>
+                        </button>
+                    </div>
+                </div>
+                <div class="rc_card">
+                    <img class="rc_card_img" src="./IMAGES/General/1. Mrutyu tarvata Jeevitham.jpg" alt="">
+                    <div class="rc_card_discription">
+                        <h4 class="rc_card_title">Mrutyu tarvata Jeevitham</h4>
+                        <h5 class="rc_card_author">Madhurya</h5>
+                        <h4 class="rc_card_price">₹ 130.00</h4>
+                        <button class="rc_card_btn">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <h3>Add to Cart</h3>
+                        </button>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+        </div>
+    </div>
+<!-- book category -->
+    <div id="bookcategory">
+        <div class="bc_title">
+            <h2 class="bc_head">Book Category</h2>
+            <a href="./bookcategory/index_bc.html"><button class="bc_btn">View All</button></a>
+        </div>
+        <div class="book_categories">
+            <div class="bc_1">
+                <a href=""><img src="./IMAGES/sections/adhyatma.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">Adhyatma & Dharmika</p>
+            </div>
+            <div class="bc_1">
+                <a href=""><img src="./IMAGES/sections/auto biography.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">Auto Biography</p>
+            </div>
+            <div class="bc_1">
+                <a href=""></a><img src="./IMAGES/sections/english.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">English Books</p>
+            </div>
+            <div class="bc_1">
+                <a href=""></a><img src="./IMAGES/sections/general.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">General Books</p>
+            </div>
+            <div class="bc_1">
+                <a href=""></a><img src="./IMAGES/sections/history.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">History Books</p>
+            </div>
+            <div class="bc_1">
+                <a href=""></a><img src="./IMAGES/sections/personality.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">Personality <br> Development</p>
+            </div>
+            <div class="bc_1">
+                <a href=""></a><img src="./IMAGES/sections/yoga.jpg" alt="" class="bc_1_image"></a>
+                <p class="bc_1_title">Yoga</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- footer -->
+    <div id="footer">
+        <div class="f_head1">
+            <h3>Get in touch</h3>
+        </div>
+        <div class="f_container">
+            <div class="contact_info">
+                <h1>CONTACT INFO</h1>
+                <h3><i class="fa-solid fa-location-dot"></i> ADDRESS: </h3>
+                <p>abc hctes34sdtuygkuhvcfxrwa<br>nvfxzqewresdfmjujhky<br>cghdxtrwaestrytdfjyu</p>
+                <h3><i class='bx bxs-phone'></i></i> PHONE: </h3>
+                <p>08740976775433564676789</p>
+                <h3><i class="fa-regular fa-envelope"></i> EMAIL: </h3>
+                <P class="mail"><a href=""> mhgcgdrtyugu</a></P>
+            </div>
+            <div class="customer_service">
+                <h1>CUSTOMER SERVICE</h1>
+                <div class="cs_11">
+                    <div class="customer_service_1">
+                        <ul>
+                            <li><a href="">Payments</a></li>
+                            <li><a href="">Shipping & Delivery</a></li>
+                            <li><a href="">Cancellation & Returns</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Terms of use</a></li>
+                            <li><a href="">Book Size</a></li>
+                        </ul>
+                        <h3><i class="fa-solid fa-hourglass-start"></i>WORKING DAYS/ HOURS</h3>
+                        <P>Mon - Sun / 10:00 AM - 06:00 PM</P>
+                    </div>
+                    <div class="customer_service_1">
+                        <ul>
+                            <li><a href="">Authors</a></li>
+                            <li><a href="">Categories</a></li>
+                            <li><a href="">My Account</a></li>
+                            <li><a href="">About Us </a></li>
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                        <div class="cs_social_icons" id="cs_social_icons">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="f_border">
+            <p>hii</p>
+        </div> -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
